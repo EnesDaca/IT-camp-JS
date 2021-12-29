@@ -156,16 +156,37 @@
 //-----------------------------------------
 
 
-a = prompt('unesi broj');
+// a = prompt('unesi broj');
 
-if (a<=12) {
-    console.log(`${a} jutro je`);
-}
+// if (a<=12) {
+//     console.log(`${a} jutro je`);
+// }
 
-if (a>=13) {
-    console.log(`${a} dan je`);
-}
+// if (a>=13) {
+//     console.log(`${a} dan je`);
+// }
 
-if  (a>=20) {
-    console.log(`${a} noc je`);
-}
+// if  (a>=20) {
+//     console.log(`${a} noc je`);
+// }
+
+// SWITCH ///////////////////////////////
+
+// a= parseInt (prompt('Unesi broj od 1-100'))   
+
+// switch (true) {
+//     case (a>=0 && a<=30):
+//       console.log('Low');
+//       break;
+//     case (a>=30 && a<=60):
+//         console.log('Medium');
+//       break;
+//     case (a>=60 && a<=100):
+//         console.log('High');
+//       break;
+//     case (a>=101):
+//         console.log('broj prevelik');
+//         break;
+// }
+
+
