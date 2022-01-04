@@ -155,38 +155,125 @@
 // console.log("daris" === "daris");
 //-----------------------------------------
 
-
-// a = prompt('unesi broj');
-
-// if (a<=12) {
-//     console.log(`${a} jutro je`);
+// a = parseInt(prompt("UNesi broj izmedju 1-7"));
+// switch (a) {
+//   case 1:
+//     console.log("Ponedeljak");
+//     break;
+//   case 2:
+//     console.log("Utorak");
+//     break;
+//   case 3:
+//     console.log("Sreda");
+//     break;
+//   case 4:
+//     console.log("Cetvertak");
+//     break;
+//   case 5:
+//     console.log("Petak");
+//     break;
+//   case 6:
+//     console.log("Subota");
+//     break;
+//   case 7:
+//     console.log("Nedelja");
+//     break;
+//   default:
+//     console.log("Pogresan UNsos");
 // }
 
-// if (a>=13) {
-//     console.log(`${a} dan je`);
-// }
-
-// if  (a>=20) {
-//     console.log(`${a} noc je`);
-// }
-
-// SWITCH ///////////////////////////////
-
-// a= parseInt (prompt('Unesi broj od 1-100'))   
+// a = parseInt(prompt("Uneis broj izmedju 0 - 100"));
 
 // switch (true) {
-//     case (a>=0 && a<=30):
-//       console.log('Low');
-//       break;
-//     case (a>=30 && a<=60):
-//         console.log('Medium');
-//       break;
-//     case (a>=60 && a<=100):
-//         console.log('High');
-//       break;
-//     case (a>=101):
-//         console.log('broj prevelik');
-//         break;
+//   case a > 0 && a < 30:
+//     console.log("LOW");
+//     break;
+//   case a > 30 && a < 60:
+//     console.log("Medium");
+//     break;
+//   case a > 70 && a < 100:
+//     console.log("HIGH");
+//     break;
+//   default:
+//     console.log("Pogresan unos");
 // }
 
+// console.log("Daris");
+//------------------------------------------------------------------------
 
+// for (i = 1; i <= 10; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+//----------------------------------------------------------
+//----------------------------------------------------------
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// for (i = pocetna; i <= krajnja; i++) {
+//   if (i % 2 === 0) {
+//     console.log(i);
+//   }
+// }
+
+//----------------------------------------------------------
+
+// for (i = 0; i <= 15; i++) {
+//   if (i % 2 === 0) {
+//     console.log(`Broj ${i} je paran `);
+//   } else {
+//     console.log(`Broj ${i} je neparan `);
+//   }
+// }
+
+//----------------------------------------------------------
+
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// for (i = pocetna; i <= krajnja; i++) {
+//   if (i % 5 === 0 && i % 3 === 0) {
+//     console.log("fizzbuzz");
+//   } else if (i % 5 === 0) {
+//     console.log("buzz");
+//   } else if (i % 3 === 0) {
+//     console.log("fizz");
+//   } else {
+//     console.log(i);
+//   }
+// }
+
+//----------------------------------------------------------
+
+// kolicina = parseInt(prompt("Koliko brojeve zelite da uneste"));
+// sum = 0;
+// for (i = 0; i < kolicina; i++) {
+//   unos = parseInt(prompt("Unesi broj"));
+//   sum += unos;
+// }
+// console.log(sum / kolicina);
+//--------------------------
+// pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
+// krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
+
+// sumP = 0;
+// sumN = 0;
+
+// for (i = pocetna; i < krajnja; i++) {
+//   if (i % 2 === 0) {
+//     sumP += i;
+//   } else {
+//     sumN += i;
+//   }
+// }
+
+// console.log("Suma parnih je: ", sumP);
+// console.log("Suma neparnih je: ", sumN);
+
+//--------------------------------------
+//Domaci:
+//Uneti string i  za dati string ispisati svako slovo pojedinacno sa for petljom
+//Example: unos: DARIS , izlaz: D A R I S
+//--------------------------------------
