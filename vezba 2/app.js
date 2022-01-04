@@ -254,7 +254,7 @@
 //   sum += unos;
 // }
 // console.log(sum / kolicina);
-//--------------------------
+//-------------------------------------------------------------
 // pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
 // krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
 
@@ -277,3 +277,9 @@
 //Uneti string i  za dati string ispisati svako slovo pojedinacno sa for petljom
 //Example: unos: DARIS , izlaz: D A R I S
 //--------------------------------------
+
+unos = ("DARIS")
+
+for (i=unos; i === unos; i++) {
+    console.log(unos.split(''));
+}
