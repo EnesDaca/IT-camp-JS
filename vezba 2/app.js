@@ -278,8 +278,42 @@
 //Example: unos: DARIS , izlaz: D A R I S
 //--------------------------------------
 
-unos = ("DARIS")
+// unos = prompt("Unesi rec")
 
-for (i=unos; i === unos; i++) {
-    console.log(unos.split(''));
+// for (i = 0; i < unos.lenght ; i++) {
+//     console.log(unos[i]);
+// }
+
+// for (i = 7; i < 7; i--) {
+//     console.log(i);
+// }
+
+// unos = parseInt('1')
+// sum = 0;
+
+
+// for (i=0; i<10; i++) {
+//     for (j=0; j<10; j++){
+//     console.log(i, ''
+// }
+//   console.log(unos += sum);
+// }
+
+// unos = prompt('unesite')
+// sum = ('*')
+
+// for (i=0; i<5; i++) {
+//     console.log(unos += sum);
+// }
+
+
+unos = parseInt(prompt("Unesite broj:"));
+
+for (i = 1; i <= unos; i++) {
+    sum = "";
+
+    for (j = 1; j <= i; j++) {
+       sum  += i;
+    }
+    console.log(sum);
 }
