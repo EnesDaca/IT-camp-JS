@@ -254,7 +254,7 @@
 //   sum += unos;
 // }
 // console.log(sum / kolicina);
-//-------------------------------------------------------------
+//--------------------------
 // pocetna = parseInt(prompt("Unesi pocetnu vrednost"));
 // krajnja = parseInt(prompt("Unesi kranjnu vrednost"));
 
@@ -278,42 +278,71 @@
 //Example: unos: DARIS , izlaz: D A R I S
 //--------------------------------------
 
-// unos = prompt("Unesi rec")
+// unos = prompt("Unesi rec");
 
-// for (i = 0; i < unos.lenght ; i++) {
-//     console.log(unos[i]);
+// for (i = 0; i < unos.length; i++) {
+//   console.log(unos[i]);
 // }
 
-// for (i = 7; i < 7; i--) {
-//     console.log(i);
+//--------------------------------------
+
+// for (i = 7; i > 0; i--) {
+//   console.log(i);
 // }
 
-// unos = parseInt('1')
-// sum = 0;
+//--------------------------------------
 
+// for (i = 0; i < 7; i++) {
+//   for (j = 0; j < 7; j++) {
+//     console.log("unutrasnja for", j);
+//   }
 
-// for (i=0; i<10; i++) {
-//     for (j=0; j<10; j++){
-//     console.log(i, ''
-// }
-//   console.log(unos += sum);
-// }
-
-// unos = prompt('unesite')
-// sum = ('*')
-
-// for (i=0; i<5; i++) {
-//     console.log(unos += sum);
+//   console.log("spoljasnja for", i);
 // }
 
+//--------------------------------------
 
-unos = parseInt(prompt("Unesite broj:"));
+// for (i = 1; i <= 10; i++) {
+//   for (j = 1; j <= 10; j++) {
+//     console.log(i, "*", j, "=", i * j);
+//   }
+// }
 
-for (i = 1; i <= unos; i++) {
-    sum = "";
+//--------------------------------------
 
-    for (j = 1; j <= i; j++) {
-       sum  += i;
-    }
-    console.log(sum);
-}
+// sum = "";
+// char = " *";
+// for (i = 0; i < 5; i++) {
+//   console.log((sum += char));
+// }
+
+//--------------------------------------
+
+// unos = prompt("Unesi text");
+// unosR = "";
+
+// for (i = unos.length - 1; i >= 0; i--) {
+//   unosR += unos[i];
+// }
+// if (unos === unosR) {
+//   console.log("Vasa rec je palindrom");
+// } else {
+//   console.log("Vassa rec nije palindrom");
+// }
+
+//--------------------------------------
+
+// unos = prompt("Unesi broj: ");
+
+// for (i = 1; i <= unos; i++) {
+//   sum = "";
+
+//   for (j = 1; j <= i; j++) {
+//     sum += i;
+//   }
+//   console.log(sum);
+// }
+
+//--------------------------------------
+//DOmaci napraviti program da izracuna factorial unetog broja
+//factorial od 5 = 1*2*3*4*5 = 120
