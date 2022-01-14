@@ -395,3 +395,35 @@
 //   sum += unos;
 // }
 // console.log(sum);
+
+// a = 6;
+
+// sumFakt = 0;
+
+// for (i=1; i <= a; i++) {
+//     fakt = 1;
+
+//     for (j = 1; j <=i; j++){
+//     fakt = fakt * i;
+// }
+//     sumFakt += fakt;
+// }
+
+// console.log(sumFakt);
+
+// ==============================================================
+
+// for (i = 1; i <=10; i++) {
+//     red = "";
+//     for  (j =1; j <= 10; j++){
+//     red += `${j * i} \t`;
+// }   
+//     console.log(red);
+// }
+
+// for (i = 1; i <= 3; i++) {
+//     unos = parseInt(prompt('Unesite broj:'));
+//     sum = "";
+//     unos += sum;
+// }
+// console.log(unos += sum);
