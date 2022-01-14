@@ -421,9 +421,69 @@
 //     console.log(red);
 // }
 
+// ====================================================================
+
 // for (i = 1; i <= 3; i++) {
 //     unos = parseInt(prompt('Unesite broj:'));
 //     sum = "";
 //     unos += sum;
 // }
 // console.log(unos += sum);
+
+
+// unos = prompt('Unesite rec END:');
+
+// while (unos !== "END") {
+//     unos = prompt ('Unesite rec')
+// }
+// console.log(unos);
+
+// ===============================================================
+
+// unos = parseInt(prompt('unesite broj'));
+// sum = 0;
+
+// while (unos >= 0){
+//     sum += unos;
+//     unos = parseInt(prompt('unesite broj:'));
+   
+// }
+// console.log(sum);
+
+// ===============================================================
+
+// unos = prompt('Unesite ime')
+
+// while (unos.toUpperCase() !== "END") {
+//     console.log(unos);
+//     unos = prompt('Unesite ime')
+// }
+// console.log('I am done');
+
+// ============================================================
+
+// unos = parseInt(prompt("Unesite ocenu od 1 - 5:"));
+// sum = 0;
+// brojac = 0;
+
+// while (unos >= 1 && unos <= 5) {
+//   sum += unos;
+//   brojac++;
+//   unos = parseInt(prompt('Unesite ocenu od 1 - 5:'))
+// }
+// console.log(sum / brojac);
+
+broj = Math.round(Math.random() *10);
+unos = parseInt(prompt("Unesite broj:"));
+
+while (unos !== broj) {
+    
+    if (unos > broj){ 
+        console.log("vas broj je veci");
+    }
+    else {
+        console.log('vvas broj je manji');
+    }
+}
+
+console.log("Pogodili ste broj");
