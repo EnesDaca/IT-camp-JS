@@ -493,38 +493,104 @@
 //pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
 
 
-op = prompt('Izaberite operaciju:');
+// operator = prompt('Izaberite operaciju:');
 
-while (op.toUpperCase() !== "STOP") {
-    if (op === '-') {
-        unos = parseInt(prompt('Unesite 1 broj:'))
-        unos2 = parseInt(prompt('Unesite 2 broj:'))
-        op = prompt('Stopirajte oduzimanje:')
-        console.log('Rezultat oduzimanja je:', unos - unos2);
-        break;
-    }
+// while (operator.toUpperCase() !== "STOP") {
+//         unos = parseInt(prompt('Unesite 1 broj:'))
+//         unos2 = parseInt(prompt('Unesite 2 broj:'))
+//     if (op === '-') {
+        
+//         op = prompt('Stopirajte oduzimanje:')
+//         console.log('Rezultat oduzimanja je:', unos-unos2);
+//         break;
+//     }
     
-    if (op === '+') {
-        unos = parseInt(prompt('Unesite 1 broj:'))
-        unos2 = parseInt(prompt('Unesite 2 broj:'))
-        op = prompt('Stopirajte sabiranje:')
-        console.log('Zbir je: ',unos+unos2);
-        break;
-    }
+//     if (op === '+') {
+//         unos = parseInt(prompt('Unesite 1 broj:'))
+//         unos2 = parseInt(prompt('Unesite 2 broj:'))
+//         op = prompt('Stopirajte sabiranje:')
+//         console.log('Zbir je: ', unos+unos2);
+//         break;
+//     }
     
-    if (op === '*') {
-        unos = parseInt(prompt('Unesite 1 broj:'))
-        unos2 = parseInt(prompt('Unesite 2 broj:'))
-        op = prompt('Stopirajte mnozenje:')
-        console.log('Proizvod je: ',unos*unos2);
-        break;
-        }
+//     if (op === '*') {
+//         unos = parseInt(prompt('Unesite 1 broj:'))
+//         unos2 = parseInt(prompt('Unesite 2 broj:'))
+//         op = prompt('Stopirajte mnozenje:')
+//         console.log('Proizvod je: ', unos*unos2);
+//         break;
+//         }
     
-     if (op === '+') {
-        unos = parseInt(prompt('Unesite 1 broj:'))
-        unos2 = parseInt(prompt('Unesite 2 broj:'))
-        op = prompt('Stopirajte deljenje:')
-        console.log('Količnik je: ',unos/unos2);
-        break;
-        }
-}
+//      if (op === '/') {
+//         unos = parseInt(prompt('Unesite 1 broj:'))
+//         unos2 = parseInt(prompt('Unesite 2 broj:'))
+//         op = prompt('Stopirajte deljenje:')
+//         console.log('Količnik je: ', unos/unos2);
+//         break;
+//         }
+// }
+
+// tezina = parseInt(prompt('Unesite tezinu: '))
+// visina = parseInt(prompt('Unesite visinu: '))
+// bmi = tezina / visina ** 2;
+
+// if (bmi <= 18.5){
+//     console.log("Underweight");
+// }
+// else if (bmi <=25) {
+//     console.log("Normal");
+// }
+// else if (bmi <=30) {
+//     console.log("Overweight");
+// }
+// else if (bmi > 30) {
+//     console.log("Obese");
+// }
+
+
+// a = parseInt(prompt("Unesite broj: "))
+// brojac = 1;
+
+// while (brojac <= n) {
+//     if (brojac % 2 !==0){
+//         console.log(brojac);
+//     }
+//     brojac++;
+// }
+
+// unos = parseInt(prompt('Unesite broj: '))
+
+// while (unos !== "STOP") {
+//     if (unos === 0) {
+//             console.log(`Broj ${unos} je ZERO `);
+//           } else if (unos > 0) {
+//             console.log(`Broj ${unos} je paran `);
+//           }
+//           else if (unos < 0) {
+//             console.log(`Broj ${unos} je neparan `);
+//           }
+// }
+
+// pocetna = parseInt(prompt("Unesite pocetnu godinu: "))
+// krajnja = parseInt(prompt("Unesite krajnju godinu: "))
+
+// for (i = pocetna; i <= krajnja; i++){
+//     if (i % 4 === 0){
+//     console.log(i);
+// }
+// }
+
+// broj = parseInt(prompt("Unesite broj"));
+// brojac = 1;
+// factorial = 1;
+
+// while (brojac <= broj) {
+//   factorial *= brojac;
+//   brojac++;
+// }
+// console.log(factorial);
+
+// unos = prompt('Unesite rec');
+
+// newString = unos.slice(1) + unos[0];
+// console.log(newString);
