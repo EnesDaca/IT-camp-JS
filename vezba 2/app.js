@@ -440,14 +440,13 @@
 
 // ===============================================================
 
-// unos = parseInt(prompt('unesite broj'));
+// unos = parseInt(prompt("Unesite broj: "));
 // sum = 0;
-
-// while (unos >= 0){
-//     sum += unos;
-//     unos = parseInt(prompt('unesite broj:'));
-   
+// while (unos >= 0) {
+//   sum += unos;
+//   unos = parseInt(prompt("Unesite broj opet: "));
 // }
+
 // console.log(sum);
 
 // ===============================================================
@@ -462,28 +461,70 @@
 
 // ============================================================
 
-// unos = parseInt(prompt("Unesite ocenu od 1 - 5:"));
-// sum = 0;
-// brojac = 0;
+// ocena = parseInt(prompt("Unesi ocenu 1-5"));
+// zbir = 0;
+// kolicina = 0;
 
-// while (unos >= 1 && unos <= 5) {
-//   sum += unos;
-//   brojac++;
-//   unos = parseInt(prompt('Unesite ocenu od 1 - 5:'))
+// while (ocena >= 1 && ocena <= 5) {
+//   zbir += ocena;
+//   kolicina++;
+//   ocena = parseInt(prompt("Unesi ocenu 1-5"));
 // }
-// console.log(sum / brojac);
 
-broj = Math.round(Math.random() *10);
-unos = parseInt(prompt("Unesite broj:"));
+// console.log("Sredina je: ", zbir / kolicina);
 
-while (unos !== broj) {
+// ==============================================================
+
+// broj = Math.round(Math.random() * 10);
+// unos = parseInt(prompt("Unesi broj"));
+
+// while (unos !== broj) {
+//   if (unos > broj) {
+//     unos = parseInt(prompt("Broj je too high try again"));
+//   } else {
+//     unos = parseInt(prompt("Broj je too small try again"));
+//   }
+// }
+
+// console.log("Pogodili ste broj");
+
+
+//Domaci:Napraviti kalkulator koji ce sve dok korisnik ne unese STOP pitati za operaciju +,-,*,/ i nakon odabira
+//pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
+
+
+op = prompt('Izaberite operaciju:');
+
+while (op.toUpperCase() !== "STOP") {
+    if (op === '-') {
+        unos = parseInt(prompt('Unesite 1 broj:'))
+        unos2 = parseInt(prompt('Unesite 2 broj:'))
+        op = prompt('Stopirajte oduzimanje:')
+        console.log('Rezultat oduzimanja je:', unos - unos2);
+        break;
+    }
     
-    if (unos > broj){ 
-        console.log("vas broj je veci");
+    if (op === '+') {
+        unos = parseInt(prompt('Unesite 1 broj:'))
+        unos2 = parseInt(prompt('Unesite 2 broj:'))
+        op = prompt('Stopirajte sabiranje:')
+        console.log('Zbir je: ',unos+unos2);
+        break;
     }
-    else {
-        console.log('vvas broj je manji');
-    }
+    
+    if (op === '*') {
+        unos = parseInt(prompt('Unesite 1 broj:'))
+        unos2 = parseInt(prompt('Unesite 2 broj:'))
+        op = prompt('Stopirajte mnozenje:')
+        console.log('Proizvod je: ',unos*unos2);
+        break;
+        }
+    
+     if (op === '+') {
+        unos = parseInt(prompt('Unesite 1 broj:'))
+        unos2 = parseInt(prompt('Unesite 2 broj:'))
+        op = prompt('Stopirajte deljenje:')
+        console.log('Količnik je: ',unos/unos2);
+        break;
+        }
 }
-
-console.log("Pogodili ste broj");
