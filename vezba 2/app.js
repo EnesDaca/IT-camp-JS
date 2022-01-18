@@ -493,42 +493,22 @@
 //pitati za dva broja na koje ce se primeniti operacija i ispisati rezultat i sve se ponoviti
 
 
-// operator = prompt('Izaberite operaciju:');
-
-// while (operator.toUpperCase() !== "STOP") {
-//         unos = parseInt(prompt('Unesite 1 broj:'))
-//         unos2 = parseInt(prompt('Unesite 2 broj:'))
-//     if (op === '-') {
-        
-//         op = prompt('Stopirajte oduzimanje:')
-//         console.log('Rezultat oduzimanja je:', unos-unos2);
-//         break;
-//     }
-    
-//     if (op === '+') {
-//         unos = parseInt(prompt('Unesite 1 broj:'))
-//         unos2 = parseInt(prompt('Unesite 2 broj:'))
-//         op = prompt('Stopirajte sabiranje:')
-//         console.log('Zbir je: ', unos+unos2);
-//         break;
-//     }
-    
-//     if (op === '*') {
-//         unos = parseInt(prompt('Unesite 1 broj:'))
-//         unos2 = parseInt(prompt('Unesite 2 broj:'))
-//         op = prompt('Stopirajte mnozenje:')
-//         console.log('Proizvod je: ', unos*unos2);
-//         break;
-//         }
-    
-//      if (op === '/') {
-//         unos = parseInt(prompt('Unesite 1 broj:'))
-//         unos2 = parseInt(prompt('Unesite 2 broj:'))
-//         op = prompt('Stopirajte deljenje:')
-//         console.log('Količnik je: ', unos/unos2);
-//         break;
-//         }
+// while (operator !== "STOP") {
+//   prviBroj = parseInt(prompt("Unesite prvi broj"));
+//   drugiBroj = parseInt(prompt("Unesite drugi broj"));
+//   if (operator === "+") {
+//     console.log(prviBroj + drugiBroj);
+//   } else if (operator === "-") {
+//     console.log(prviBroj - drugiBroj);
+//   } else if (operator === "*") {
+//     console.log(prviBroj * drugiBroj);
+//   } else if (operator === "/") {
+//     console.log(prviBroj / drugiBroj);
+//   }
+//   operator = prompt("Unesi operaciju");
 // }
+
+// ==================================================================
 
 // tezina = parseInt(prompt('Unesite tezinu: '))
 // visina = parseInt(prompt('Unesite visinu: '))
@@ -547,40 +527,47 @@
 //     console.log("Obese");
 // }
 
+//======================================= 
 
-// a = parseInt(prompt("Unesite broj: "))
+// n = parseInt(prompt("Unesi krajnji broj"));
 // brojac = 1;
 
 // while (brojac <= n) {
-//     if (brojac % 2 !==0){
-//         console.log(brojac);
-//     }
-//     brojac++;
+//   if (brojac % 2 !== 0) {
+//     console.log(brojac);
+//   }
+//   brojac++;
 // }
 
-// unos = parseInt(prompt('Unesite broj: '))
+// ======================================
+
+// unos = prompt("Unesite nesto");
 
 // while (unos !== "STOP") {
-//     if (unos === 0) {
-//             console.log(`Broj ${unos} je ZERO `);
-//           } else if (unos > 0) {
-//             console.log(`Broj ${unos} je paran `);
-//           }
-//           else if (unos < 0) {
-//             console.log(`Broj ${unos} je neparan `);
-//           }
+//   if (unos == 0) {
+//     console.log("ZERO");
+//   } else if (unos > 0) {
+//     console.log("POSITIVE");
+//   } else if (unos < 0) {
+//     console.log("NEGATIVE");
+//   }
+//   unos = prompt("Unesite nesto opet");
 // }
 
-// pocetna = parseInt(prompt("Unesite pocetnu godinu: "))
-// krajnja = parseInt(prompt("Unesite krajnju godinu: "))
+// =============================================
 
-// for (i = pocetna; i <= krajnja; i++){
-//     if (i % 4 === 0){
+// pocetna = prompt("Unesi pocetnu vrednost");
+// krajnju = prompt("Unesi krajnju vrednost");
+
+// for (i = pocetna; i <= krajnju; i++) {
+//   if (i % 4 === 0) {
 //     console.log(i);
-// }
+//   }
 // }
 
-// broj = parseInt(prompt("Unesite broj"));
+// ===========================================
+
+// broj = parseInt(prompt("Unesi broj"));
 // brojac = 1;
 // factorial = 1;
 
@@ -590,7 +577,41 @@
 // }
 // console.log(factorial);
 
-// unos = prompt('Unesite rec');
+// =================================
 
+// unos = prompt("Unesite rec");
 // newString = unos.slice(1) + unos[0];
 // console.log(newString);
+
+// ==========================================
+
+// a = "enes";
+// a2 = a.charAt(0).toUpperCase()+a.slice(1);
+// console.log(a2);
+
+// const b = 'svako pocetno slovo je veliko';
+// const arr = b.split(" ");
+
+// for (var i = 0; i < arr.length; i++) {
+//     arr[i] = arr[i].charAt(0).toUpperCase() + arr[i].slice(1);
+
+// }
+
+// const b2 = arr.join(" ");
+// console.log(b2);
+
+// ==========================================
+
+// function NumToTime(num) { 
+//     var hours = Math.floor(num / 60);  
+//     var minutes = num % 60;
+//     if (minutes + ''.length < 2) {
+//       minutes = '0' + minutes; 
+//     }
+//     return hours + ":" + minutes;
+//   }
+  
+//   console.log(NumToTime(60));
+//   console.log(NumToTime(61));
+//   console.log(NumToTime(1236));
+
