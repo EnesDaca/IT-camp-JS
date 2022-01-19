@@ -601,6 +601,23 @@
 // const b2 = arr.join(" ");
 // console.log(b2);
 
+// =======================================================
+
+// unos = prompt ('Unesite string')
+// novi = ""
+// for (i=0;i.lenght-1;i++){
+//     if(i===0){
+//         novi+=unos[0].toUpperCase()
+//     }
+//     if (unos[i]==" ") {
+//         novi+=unos[i+1].toUpperCase()
+//     }
+//     else {
+//         novi+=unos[i+1]
+//     }
+// }
+// console.log(novi);
+
 // ==========================================
 
 // function NumToTime(num) { 
@@ -615,4 +632,73 @@
 //   console.log(NumToTime(60));
 //   console.log(NumToTime(61));
 //   console.log(NumToTime(1236));
+
+// ===========================================
+
+// unos = parseInt(prompt('Unesite broj:'))
+
+// sati = Math.floor(unos / 60)
+// minuti = sati % 60;
+
+// console.log("Sati", sati);
+// console.log("Minute", minuti);
+// 
+// ============================================
+// ARRAYS /////////// ARRAYS //////////////////
+// ============================================
+
+// unos = parseInt(prompt('Unos:'))
+// arr = [];
+
+// for (i=0;i<unos; i++){
+    
+//     unos2 = prompt('Unesite rec:');
+//     arr[i] = unos2;
+// }
+// console.log(arr);
+
+// ==========================================
+
+// unos = parseInt(prompt("unos:"))
+
+// arr = []
+
+// for (i=0; i < unos; i++){
+//     unos2 = prompt('Unesite array:');
+//     arr[i] = unos2;
+// }
+// console.log(arr);
+
+// for (i=arr.lenght - 1; i >= 0; i--) {
+//     console.log(arr[i]);
+// }
+
+// ============================================
+
+// unos = parseInt(prompt("Unesite kolicinu:"))
+
+// arr = []
+
+// for (i=0; i < unos; i++){
+//     unos2 = parseInt(prompt('Unesite element:'));
+//     arr[i] = unos2;
+// }
+// sum = 0;
+// for (i=0; i < arr.length; i++){
+//     sum += arr[i];
+// }
+// console.log('Suma je:', sum);
+
+// ================================================
+
+// arr = [2, 12, 1, 7, 19, 74, 23, 4, 3];
+// max = arr[0]
+
+// for (i=0; i <= arr.length; i++) {
+//     if (max < arr[i]){
+//         max = arr[i];
+//     }
+// }
+// console.log(max);
+
 
