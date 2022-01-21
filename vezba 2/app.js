@@ -701,4 +701,40 @@
 // }
 // console.log(max);
 
+//====================================================== 
 
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+
+// newLength = fruits.push("NEW");
+// console.log(fruits);
+// console.log("newLength",newLength);
+
+//======================================================
+
+// food1 = ["Ice cream", "Pizza", "Coke"];
+// food2 = ["Bread","Soup", "Ice cream"];
+
+// sameFood = [];
+
+// for (i =0; i<food1.length; i++){
+//     for (j=0; j<food2.length;i++){
+//         if (food1[i] ===food2[j]){
+//             sameFood.push(food1[i])
+//         }
+//     }
+// }
+// console.log(sameFood);
+
+// ====================================================
+
+data = [0, 1, false, 2, undefined, '', 3, null];
+
+for (i=0;i<=data.length;i++){
+    console.log(data[i]);
+if (data[i]) {
+data.splice (0,1);
+console.log(el);
+}
+} 
