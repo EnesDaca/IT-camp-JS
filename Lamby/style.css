@@ -1,0 +1,163 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap');
+
+:root {
+    --white: #f7f7f7;
+}
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: orator-std, monospace;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 1.2;
+    user-select: none;
+}
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    width: 100%;
+    background: url(./pictures/FreshPaint-42-2021.01.11-11.25.03.jpg) no-repeat top center / cover;
+}
+
+a {
+    color: #fff;
+    text-decoration: none;
+}
+
+a:hover {
+    color: gray;
+}
+
+ul {
+    list-style-type: none;
+}
+
+img {
+    width: 100%;
+}
+
+.text-header {
+    color: white;
+    font-size: small;
+    letter-spacing: 35px;
+    margin: 80px 100px;
+}
+
+nav ul {
+    margin-left: 100px;
+    margin-top: 100px;
+}
+nav li {
+    width: fit-content;
+    position: relative;
+    margin-top: 5px;
+}
+
+nav li::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    width: 0%;
+    height: 2px;
+    background: rgb(68, 67, 67);
+    transition: 0.4s ease-out;
+}
+
+nav li:hover::after{
+    left: 0;
+    width: 100%;
+}
+
+nav a {
+    color: black;
+    font-size: 1.6em;
+    letter-spacing: 0.5px;
+}
+nav a:hover {
+    color: rgb(68, 67, 67);
+}
+
+
+/* NEW CODE */
+nav {
+    position: absolute;
+    top: 20%;
+    width: 400px;
+    border: 2px red solid;
+    padding: 8px 25px;
+}
+[id^=btn-3]:checked + ul {
+    display: block;
+}
+
+nav label{
+    color: white;
+    font-size: 22px;
+    font-weight: 500;
+    display: block;
+    cursor: pointer;
+  }
+
+nav ul{
+    position: absolute;
+    list-style: none;
+    top: 1%;
+    left: 0;
+    width: 100%;
+    display: visible;
+    border: pink 1px solid;
+}
+    
+  nav .menu:before{
+    position: absolute;
+    content: '';
+    height: 20px;
+    width: 20px;
+    background: #1b1b1b;
+    right: 20px;
+    top: -10px;
+    transform: rotate(45deg);
+    z-index: -1;
+  }
+  nav ul li{
+    line-height: 40px;
+    padding: 8px 20px;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(0,0,0,0.2);
+  }
+
+  nav ul li label{
+    font-size: 18px;
+  }
+
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    display: block;
+  }
+  
+nav ul ul{
+    position: static;
+  }
+
+  nav ul li span{
+    font-size: 20px;
+    float: right;
+    margin-top: 10px;
+    padding: 0 10px;
+    transition: 0.5s;
+  }
+  nav ul li span.rotate{
+    transform: rotate(-180deg);
+  }
+  
+input{
+    display: none;
+  }

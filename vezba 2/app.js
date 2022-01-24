@@ -701,40 +701,151 @@
 // }
 // console.log(max);
 
-//====================================================== 
+//============================================================
 
 // fruits = ["Banana", "Orange", "Apple", "Mango"];
 
 // console.log(fruits);
 
 // newLength = fruits.push("NEW");
+
 // console.log(fruits);
-// console.log("newLength",newLength);
+// console.log("newLength", newLength);
 
-//======================================================
+//============================================================
 
-// food1 = ["Ice cream", "Pizza", "Coke"];
-// food2 = ["Bread","Soup", "Ice cream"];
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+// returnValue = fruits.pop();
+// console.log(fruits);
+
+// console.log("RETURN=VALUE:", returnValue);
+
+//============================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// strinfOfFruits = fruits.join("+");
+
+// console.log(fruits);
+// console.log(strinfOfFruits);
+
+//============================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+// a = fruits.shift();
+// console.log(fruits);
+// console.log(a);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// console.log(fruits);
+// a = fruits.unshift("NOVI");
+// console.log(fruits);
+// console.log(a);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+
+// nesto = [true, 2, "ccc", "asdsa"];
+
+// noviAr = fruits.concat(nesto, [2, "Novi", "Treci"]);
+
+// console.log(noviAr);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Apple", "Mango"];
+// deletedItems = fruits.splice(1, 2, "NOVIIII", "Nesto");
+
+// console.log(fruits);
+// console.log(deletedItems);
+
+//===================================================
+
+// fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
+// a = fruits.slice(1, 4);
+// console.log(fruits);
+// console.log(a);
+
+//===================================================
+
+// food1 = ["Noodle", "Pasta", "Ice-cream"];
+// food2 = ["Fries", "Ice-cream", "Pizza"];
 
 // sameFood = [];
 
-// for (i =0; i<food1.length; i++){
-//     for (j=0; j<food2.length;i++){
-//         if (food1[i] ===food2[j]){
-//             sameFood.push(food1[i])
-//         }
+// for (i = 0; i < food1.length; i++) {
+//   for (j = 0; j < food2.length; j++) {
+//     if (food1[i] === food2[j]) {
+//       sameFood.push(food1[i]);
 //     }
+//   }
 // }
+
 // console.log(sameFood);
 
-// ====================================================
+//===================================================
 
-data = [0, 1, false, 2, undefined, '', 3, null];
+// fruits = ["Banana", "Orange", "Lemon", "Apple", "Mango"];
 
-for (i=0;i<=data.length;i++){
-    console.log(data[i]);
-if (data[i]) {
-data.splice (0,1);
-console.log(el);
-}
-} 
+// for (fruit of fruits) {
+//   console.log(fruit);
+// }
+
+//===================================================
+
+// data = [0, 1, false, 2, undefined, 3, "", null];
+// newData = [];
+// for (i = 0; i < data.length; i++) {
+//   if (data[i]) {
+//     newData.push(data[i]);
+//   }
+// }
+
+// console.log(data);
+// console.log(newData);
+
+// ========================================================
+
+// kolicina = parseInt(prompt("Unesite broj unosa: "));
+// elements = [];
+
+// for (i=0;i<=kolicina;i++){
+//     el = prompt(`Unesite element`);
+//     elements.push(el)
+// }
+// console.log(elements);
+
+// odabir = prompt("da li je ok?")
+
+// while (odabir !== 0) {
+//     promena = prompt("Unesite 1 da dodate ")
+// }
+
+// =====================================================
+
+// data = [3, 21, 32, 36, 37, 56, 8, 12, 16, 18, 20, 68, 69];
+
+// unos = parseInt(prompt("Unesite zeljeni broj: "));
+
+// for (i=0;i<data.length;i++) {
+
+// if (data[i] === unos){
+//     console.log("Vas broj", unos, "je na indeksu", i);
+//     break;
+//  }
+// }
+
+// ===========================================
+
+arr1 = [3,21,32,36,37,46];
+arr2 = [3,21,32,36,37,56];
+
+tacnost = [];
