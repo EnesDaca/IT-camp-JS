@@ -1048,3 +1048,43 @@
 // //Domaci:
 // data = [3,0, 24,1, 54,0, 123,1, 32, 63];
 //jedinice pomeriti na pocetak a nule na kraj
+// ===============================================
+
+// function sum (){
+//    unos1 = parseInt(prompt('Unesite prvi broj:'))
+//    unos2 = parseInt(prompt('Unesite drugi broj:'))
+//    console.log(unos1 + unos2);
+// }
+// sum();
+//==================================================
+
+// function sayHello(ime){
+//   console.log("Hello, ", ime);
+// }
+// sayHello("Enes!");
+
+// function sum(a,b) {
+//   console.log(a + b);
+// }
+// sum(2,3);
+
+// ==================================================
+// CODEWARSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS
+
+// function reverseWords(str) {
+//   reversedStr = "";
+//   for (i=str.length; i<0; i--){
+//       reversedStr += str[i];
+//   }
+//   return reversedStr
+// }
+// ==================================================
+
+
+  function boolToWord ( bool) {
+      if bool {
+        return "Yes"
+      }else {
+        return "No"
+      }
+    }
