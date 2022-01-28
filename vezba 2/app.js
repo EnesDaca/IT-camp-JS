@@ -905,11 +905,7 @@
 // for (i = 0; i < a.length; i++) {
 //   sum += a[i];
 // }
-// console.log(sum / a.length);a = [3, 6, 23, 9, 44, 14, 83, 22, 5, 1];
-// sum = 0;
-// for (i = 0; i < a.length; i++) {
-//   sum += a[i];
-// }
+
 // console.log(sum / a.length);
 
 //==============================================
@@ -949,7 +945,7 @@
 // sadrzi = false;
 
 // for (el of arr) {
-//   if (el === 67 || el === 87) {
+//   if (el === 3 || el === 87) {
 //     sadrzi = true;
 //   }
 // }
