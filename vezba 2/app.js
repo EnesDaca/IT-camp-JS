@@ -1088,3 +1088,147 @@
   //       return "No"
   //     }
   //   }
+
+  // ===========================================
+
+// function noSpace(x){
+//    return x.split(' ').join('');
+// }
+
+// =============================================
+
+// function century(year){
+//   return Math.ceil(year/100)
+// }
+
+// ================================================
+
+// function findNeedle(haystack) {
+//     return 'found the needle at position ' + haystack.IndexOf('needle');
+// }
+// 
+// ================================================
+
+// function basicOp(operation, value1, value2)
+// {
+//   if (operation === '+'){
+//       return value1 + value2;
+//       }
+//   else if (operation === '*'){
+//            return value1 * value2;
+//            }
+//   else if (operation === '/'){
+//            return value1 / value2;
+//            }
+//   else if (operation === '-'){
+//            return value1 - value2;
+//            }
+// }
+
+// ===================================================
+
+// function reverseWords (str){
+//   return str.reverse();
+// }
+
+// function reverseWords (str){
+//   for (i=0; i<=str.length; i++){
+//     return str[i].reverse();
+//   }
+// }
+
+//=================================================
+
+// function monkeyCount(n) {
+//   monkeys = [];
+//   for(var i=1; i<n+1; i++){
+//     monkeys.push(i)
+//   }
+//   return monkeys;
+//  }
+
+// =================================
+
+// function remove(strong) {
+//   newString=""
+//   for(i=0;i<String.length;i++){
+//     if (string[i]!== "!")
+//     {
+//       newString+=string[i]
+//     }
+//   }
+//   newString += "!"
+//   return newString; 
+// }
+// 
+// ================================
+
+
+// const zeroFuel = (distanceToPump, mpg, fuelLeft) => distanceToPump <= mpg * fuelLeft ? true : false
+// function getAverage(marks){
+  // calculates total number of marks
+  // var total = 0;
+  // for(var i = 0; i < marks.length; i++){
+  //   total += marks[i];
+  // }
+  
+  /* returns total number of marks divided by number of marks
+     rounded down to nearest integer */
+//   return Math.floor(total / marks.length);
+// }
+
+// ====================================
+
+// var library = [
+//   {
+//     author: "Bill Gates",
+//     title: "The road ahead",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Steve Jobs",
+//     title: "Apple guy",
+//     readingStatus: true,
+//   },
+//   {
+//     author: "Suzane jrad",
+//     title: "Girlon",
+//     readingStatus: false,
+//   },
+// ];
+
+// for (let i=0; i<library.length;i++){
+//   console.log(library[i].title, library[i].readingStatus);
+// }
+
+
+// ===================================================
+
+// function creatingUser (){
+//    const ime = prompt("Unesite ime:");
+//    const prezime = prompt("unesite prezime:");
+//    const godina = prompt("godine:");
+//    const visina = parseInt(prompt("Unesite visinu "));
+//    return {
+//      ime: ime,
+//      prezime: prezime,
+//      godina: godina,
+//      visina: visina,
+//    }
+// } 
+// console.log(creatingUser());
+
+// ==========================================
+
+// const car = {
+//   name: "Audi",
+//   model: "A7",
+// };
+
+// const keys = Object.keys(car);
+
+// for (let key of keys){
+//   console.log(car[key]);
+// }
+
+// =========================================
