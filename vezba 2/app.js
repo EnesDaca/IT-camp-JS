@@ -1166,11 +1166,11 @@
 
 // const zeroFuel = (distanceToPump, mpg, fuelLeft) => distanceToPump <= mpg * fuelLeft ? true : false
 // function getAverage(marks){
-  // calculates total number of marks
-  // var total = 0;
-  // for(var i = 0; i < marks.length; i++){
-  //   total += marks[i];
-  // }
+//   calculates total number of marks
+//   var total = 0;
+//   for(var i = 0; i < marks.length; i++){
+//     total += marks[i];
+//   }
   
   /* returns total number of marks divided by number of marks
      rounded down to nearest integer */
@@ -1232,3 +1232,536 @@
 // }
 
 // =========================================
+
+// var student = {
+//   name: "David Razz",
+//   class: "Vi",
+//   rollno: 12,
+//   };
+
+//   const keys = Object.keys(student);
+
+//   for (let key of keys){
+//     console.log(key);
+//   }
+
+// ======================================
+
+// const student = {
+//   name: "david",
+//   class: "VI",
+//   rollno: 2,
+// };
+
+// const keys = Object.keys(student);
+// for (let key of keys){
+//   console.log(key.length);
+// }
+
+// =================================
+
+// const students = [{
+//   name: "Aldin",
+//   height:187,
+//   gender: "male",
+//   age: 28,
+// },
+// {
+//   name: "Enes",
+//   height: 197,
+//   gender: "male",
+//   age: 33,
+// },
+// {
+//   name: "Medzid",
+//   height: 163,
+//   gender: "male",
+//   age: 6,
+// },
+// {
+//   name: "Almir",
+//   height: 180,
+//   gender: "male",
+//   age: 17,
+// },
+// ];
+
+// function filterByAge(arr) = {
+//     const noviArr = [];
+//      for (let el of arr){
+//       if(el.age > 18){
+//         noviArr.push(el);
+//       }
+//     }
+//     return noviArr;
+//    }
+//    console.log(filterByAge(students));
+
+// ======================================
+// KOPIRANJE ... ADD I DODELA pROpeRTIJA SA DRUGOG oBJEKTA
+
+// const o2 = {... o1};
+// console.log(o1);
+// console.log(o2);
+
+// o2.name = "enes";
+// o1.age = 21;
+
+// console.log(o1);
+
+// =====================================
+
+// const data = [{
+//   name: "Enes",
+//   age: "12",
+// },
+// {
+//   name: "Jasmin",
+//   age: "18",
+// },
+// {
+//   name: "Alir",
+//   age: "29",
+// }]
+
+// function makePairs () {
+//   const noviArr = [];
+//   const keys = Object.keys(data);
+//   for (let key of keys){
+//     noviArr.push(key);
+//   }
+//   return noviArr;
+// };
+// console.log(makePairs());
+
+
+// const keys = Object.keys(student);
+// for (let key of keys){
+//   console.log(key.length);
+// }
+
+// ==========================
+
+// CALLBACK FUNKCIJE
+
+
+// const numbers = [45, 4, 9, 15, 25];
+// numbers.forEach((el) =>{
+//   console.log(el **2);
+// });
+
+// const numbers = [42,4,9,15,25,13,38,50];
+// numbers.forEach((el) => {
+//   if (el % 2 === 0){
+//     console.log(el);
+//   }
+// });
+
+// ===============================
+
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52, 29];
+// const evenNumbers = [];
+
+// numbers.forEach((el) => {
+//   if (el > 20) {
+//     evenNumbers.push(el);
+//   }
+// });
+
+// ====================================
+
+// let str = "the quick brown fox";
+
+// let nStr = "";
+// str = str.split("");
+// str.forEach((el, i) => {
+//   if (i % 2 === 0) {
+//     nStr += el.toLowerCase();
+//   } else {
+//     nStr += el.toUpperCase();
+//   }
+// });
+
+// console.log(nStr);
+
+// ===================================
+
+// const data = [NaN, 0, 15, false, -22, "", undefined, 47, null];
+// let brojac = 0;
+// data.forEach((el) => {
+//   if (!Boolean(el)) {
+//     brojac++;
+//   }
+// });
+// console.log(brojac);
+
+// ==================================
+
+// const a = [45, 4, 25, 13, 38, 29];
+
+// const quad = numbers.map((number) => {
+//     return number ** 2;
+//  });
+
+//  console.log(quad);
+
+//  ==================================
+
+// function stringitUp((el) => {
+//   return Array.map((el);
+//   return el.toUpperCase;
+//   });
+
+// console.log(stringitUp(2,5,100));
+
+// ==============================
+
+// function capitalizeNames(arr){
+//   return arr.map((el) =>{
+//     el.toLowerCase()
+//     el = el[0].toUpperCase() +el.slice(1);
+//     return el;
+//   });
+// }
+
+// console.log(capitalizeNames(["John","Jackob", "Jingleheimer", "schmitd"]));
+
+// =========================
+// MAPOVANJE
+
+// function namesOnly(arr){
+//         return arr.map((el)=>{
+//         return el.name;
+//        })
+//       }
+
+// console.log(namesOnly([
+//   {
+//     name: "Angelina Jolie",
+//     age:20
+//   },
+//   {
+//     name: "Eric JAmes",
+//     age: 2
+//   },
+//   {
+//     name: "Kanye West",
+//     age: 30
+//   }
+// ]));
+
+// ============================ISPRAVI
+
+// function makeString(arr){
+//       return arr.map((el)=>{
+//         if (el.age> 18){
+//           return el.name + "Farese";
+//         }else {
+//           return el.name + "MOBE";
+//         }
+//       })
+// }
+// console.log(namesOnly([
+//     {
+//       name: "Angelina Jolie",
+//       age:20
+//     },
+//     {
+//       name: "Eric JAmes",
+//       age: 2
+//     },
+//     {
+//       name: "Kanye West",
+//       age: 30
+//     }
+//   ]));
+
+// ==========================
+// function readyToPutInTheDom(arr){
+//             return arr.map((el)=>{
+//             return "<h1>" + el.name + "</h1>" + "<h2>" + el.age +"</h2>";
+
+// });
+// };
+
+// console.log(readyToPutInTheDom([
+//       {
+//         name: "Angelina Jolie",
+//         age:20
+//       },
+//       {
+//         name: "Eric JAmes",
+//         age: 2
+//       },
+//       {
+//         name: "Kanye West",
+//         age: 30
+//       }
+//     ]));
+  
+// ============================
+
+// function sbortText (str) {
+//   str = str.split (" ");
+//   const newArr = str.map((el)=>{
+//     return el[0];
+//   })
+//    return newArr.join(".");
+//   }
+ 
+// console.log(shortText("George Raymond Diamond"));
+// 
+// ===========================
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52];
+
+// const filtered = numbers.filter((el)=>{
+//   return el > 18;
+// });
+
+// console.log(filtered);
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52];
+
+// PRO CODE >>>>>>>>>>>>
+// const even = numbers.filter((number) => number % 2 ===0);
+
+
+// NOOB CODE>>>>>>>>>>>
+// const parnibrojevi= numbers.filter((el)=>{
+//   if (el % 2 === 0){
+//     return el;
+//   }
+// });
+
+// console.log(parnibrojevi);
+// 
+// =========================================
+
+// const numbers = [45, 4, 9, 16, 25, 13, 38, 60, 61, 52];
+
+// var arr = [];
+// function fiveAndGreaterOnly (arr) {
+//   const filtered = arr.filter((number) => number >= 5);
+// }
+
+// console.log([3,6,8,2]);
+
+// ==========================================
+
+// var arr = [];
+// function fiveCharactersOfFewerOnly (arr) {
+//  return arr.filter((el) => el.length <= 5);
+// }
+
+// console.log(fiveCharactersOfFewerOnly (["dog", "cougar", "family", "wolf", "cat"]));
+
+// =================================================
+
+// function peopleWhoBelongToTHeIlluminati(arr){
+//   return arr.filter((el) => el.member);
+// };
+
+// console.log(peopleWhoBelongToTHeIlluminati([
+//   {name : "Angelina jolie" , member: true},
+//   {name : "Eric Jones", member: false},
+//   {name : "Kanye West", member: true},
+//   {name : "Paris Hilton", member: false},
+//   {name : "Bob Ziroll", member: true}
+// ]));
+
+// =========================================
+
+// function peopleWhoBelongToTHeIlluminati(arr){
+//   return arr.filter((el) => el.age >= 18);
+// };
+
+// console.log(peopleWhoBelongToTHeIlluminati([
+//   {name : "Angelina jolie" , age: 12},
+//   {name : "Eric Jones", age: 22},
+//   {name : "Kanye West", age: 18},
+//   {name : "Paris Hilton", age: 2},
+//   {name : "Bob Ziroll", age: 32}
+// ]));
+
+// ====================================
+
+// const data = ["dog", "cougar", "family", "wolf", "cat"];
+
+// const evenIndex = data.filter((el, i) => !(i % 2)) /*i % 2 === 0 */;
+
+// console.log(evenIndex);
+
+
+// ======================================
+
+// const numbers = [45, 4, 9, 16];
+
+// const isAllHigh = numbers.every((value)=> {
+//   return value >18;
+// });
+
+// console.log(isAllHigh);
+
+// =====================================
+
+// const numbers = [44, 4, 8, 16];
+
+// const isAllEven = numbers.every((value)=> {
+//   return value % 2 === 0;
+// });
+
+// console.log(isAllEven);
+
+// =================================
+
+
+// const peoples = [
+//     {name : "Angelina jolie" , age: true},
+//     {name : "Eric Jones", age: false},
+//     {name : "Kanye West", age: true},
+//     {name : "Paris Hilton", age: false},
+//     {name : "Bob Ziroll", age: true}
+//   ];
+  
+// const isAllmembers = peoples.every((people)=> people.member);
+
+// console.log(isAllmembers);
+
+// ======================================
+
+// const numbers = [45, 4, 9, 16, 25];
+
+// const isAnyHigh = numbers.some((number) => {
+//   return number> 18;
+// });
+
+// console.log(isAnyHigh);
+
+// ========================================
+
+// const numbers = [45, 4, 9, 13, 25];
+
+// const isAnyEven = numbers.some((number) => {
+//   return number % 2 === 0;
+// });
+
+// console.log(isAnyEven);
+
+// =========================================
+// // STRING REPEAT
+// function repeatStr (n, s) {
+//   return s.repeat(n);
+// }
+
+// // or
+
+// function repeatStr (n, s) {
+//   let newString = ''
+//   while(n-- > 0) newString += s
+//   return newString
+// }
+// =============================
+// DISEMVOWEL TROLLS
+
+// function disemvowel(str) {
+//   var vowels = ['a', 'e', 'i', 'o', 'u'];
+//   return str.split('').filter(el => vowels.indexOf(el.toLowerCase()) == -1).join('');
+// }
+
+// console.log(disemvowel('This website is for losers LOL!'));
+// ===============================================================
+
+// DESCENDING ORDER
+
+// function descendingOrder(n){
+
+//   return parseInt(String(n).split('').sort().reverse().join(''))
+
+// }
+// ===================================================================
+
+// Get the Middle Character
+
+// function getMiddle(str) {
+//   var position;
+//   var length;
+//   if(str.length % 2 == 1) {
+//       position = str.length / 2;
+//       length = 1;
+//   } else {
+//       position = str.length / 2 - 1;
+//       length = 2;
+//   }
+
+//   return str.substring(position, position + length)
+// }
+
+// console.log(getMiddle("Back2back"));
+
+// =================================================
+// Convert boolean values to strings 'Yes' or 'No'.
+
+// function boolToWord( bool ){
+//   if (bool) {
+//     return 'Yes';
+//   } else {
+//     return 'No';
+//   }
+// }
+
+// ========================================
+// COUNT SHEEPS...
+
+
+// function countSheeps(arrayOfSheep) {
+//   return arrayOfSheep.filter(item => item === true).length
+// }
+
+// ===========================================
+// SQUARE EVERY DIGIT
+
+// function squareDigits(num){
+//   let result = num
+//     .toString()                     // turn number to string
+//     .split("")                      // turn string into array
+//     .map( num => parseInt(num) )    // map each index and return a number, now you have a number array
+//     .map( num => num * num )        // map the number array and return the square of each number
+//     .join("")                       // turn the number array into a string
+   
+//   return parseInt(result)           // turn the string into a number
+// }
+
+// =======================================
+// SQUARE (N) SUM
+
+// function squareSum(numbers) {
+//   let sum = 0
+//   numbers.forEach( number => {
+//       sum += (number * number)
+//   })
+//   return sum
+// }
+
+// =====================================
+
+// ONE ONE ONE
+
+
+// function consecutiveOnes(nums) {
+//   var max = 0;
+//   var counter = 0;
+//   for (let i=0; i <nums.length;i++ ){
+//     if (nums[i] === 1){
+//       counter ++;
+//     } else {
+//       result = Math.max(max, counter);
+//     }
+//   }
+//   return Math.max(max, counter)
+// }
+
+// consecutiveOnes([1,1,1,0,0,1,1,0,1,0,1,1,1,1,1]);
+
+// ====================================
